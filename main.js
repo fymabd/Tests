@@ -13,4 +13,8 @@ const bot2 = fork("./anas.js");
  bot2.on("error", (err) => console.error("Bot 2 Error:", err));
  bot2.on("exit", (code) => console.log(`Bot 2 exited with code ${code}`)); 
 
+const bot3 = fork("./ana.js");
+ bot3.on("error", (err) => console.error("Bot 3 Error:", err));
+ bot3.on("exit", (code) => console.log(`Bot 3 exited with code ${code}`)); 
+
 console.log("All bots started successfully!");
