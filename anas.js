@@ -217,7 +217,7 @@ const tokens = [
     {
         channelId: "1420514054023417980",
         serverId: "1411299081040691213",
-        token: process.env.TOKEN || "ODQxODE1MzU0MTQ4OTEzMTgy.GOG1qS.IG7OMD17yE5b4udpOTgMhs3Vk5YSRPBCqp6Pho",
+        token: process.env.anas || "",
         selfDeaf: false,
         autoReconnect: {
             enabled: true,
