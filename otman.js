@@ -104,8 +104,8 @@ client.on('ready', async () => {
 
 });
 
-const mySecret = process.env['TOKEN'];
-client.login("MTM1NjY1NTQ2MDI0MTExMzA5OA.GOVaX-.vFvrW_kSSWRv5cBcUyNXGb-tgTt3t3SaGdyHkA");
+const mySecret = process.env['ot'];
+client.login(mySecret);
 
 setTimeout(() => {
   if (client.user) {
